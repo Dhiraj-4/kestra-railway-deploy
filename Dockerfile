@@ -1,2 +1,2 @@
 FROM kestra/kestra:latest
-CMD ["kestra", "server", "local"]
+ENTRYPOINT ["kestra", "server", "local"]
